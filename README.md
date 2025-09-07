@@ -23,11 +23,6 @@ CSV_PATH = "sample_running_data.csv"  # 公開用サンプル
 # 実際に使うときは ↓ に置き換え
 # CSV_PATH = "Activities.csv"
 
-## サンプル画像
-![](images/distance.png)  
-![](images/pace.png)
-
-
 
 必要環境
 Python 3.11 以上
@@ -42,6 +37,12 @@ images/ フォルダに以下の画像が生成されます：
 distance.png（距離の推移）
 pace.png（平均ペースの推移）
 heart_rate.png（平均心拍数の推移、列がある場合）
+
+
+サンプル画像
+![](images/distance.png)  
+![](images/pace.png)
+
 
 注意
 このリポジトリはポートフォリオ用です。
