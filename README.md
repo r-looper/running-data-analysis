@@ -20,17 +20,17 @@ GarminのアクティビティCSVを読み込み、**距離・平均ペース・
 
 python
 CSV_PATH = "sample_running_data.csv"  # 公開用サンプル
-# 実際に使うときは ↓ に置き換え
-# CSV_PATH = "Activities.csv"
+実際に使うときは ↓ に置き換え
+CSV_PATH = "Activities.csv"
 
 
-必要環境
+## 必要環境
 Python 3.11 以上
 必要ライブラリ：pandas, matplotlib
 インストール方法：pip install pandas matplotlib
 
 
-実行方法
+## 実行方法
 CSVファイル（例：sample_running_data.csv）を同じフォルダに置く
 main.py を実行
 images/ フォルダに以下の画像が生成されます：
