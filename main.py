@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 from matplotlib.ticker import FuncFormatter
 
 # ==== 設定：CSVの場所（実ファイル名に合わせる）====
-CSV_PATH = 
+CSV_PATH = "sample_running_data.csv"
 
 # ==== 出力先：main.py と同じフォルダ配下の images/ ====
 BASE_DIR = os.path.dirname(__file__)
