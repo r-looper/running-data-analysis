@@ -18,7 +18,7 @@ GarminのアクティビティCSVを読み込み、**距離・平均ペース・
 - 実際の個人データ (`Activities.csv`) は含まれていません。  
 - 自分のGarmin CSVを利用したい場合は、`main.py` の以下を修正してください：
 
-```python
+python
 CSV_PATH = "sample_running_data.csv"  # 公開用サンプル
 # 実際に使うときは ↓ に置き換え
 # CSV_PATH = "Activities.csv"
@@ -39,7 +39,7 @@ pace.png（平均ペースの推移）
 heart_rate.png（平均心拍数の推移、列がある場合）
 
 
-サンプル画像
+## サンプル画像
 ![](images/distance.png)  
 ![](images/pace.png)
 
