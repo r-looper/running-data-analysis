@@ -23,6 +23,11 @@ CSV_PATH = "sample_running_data.csv"  # 公開用サンプル
 # 実際に使うときは ↓ に置き換え
 # CSV_PATH = "Activities.csv"
 
+## サンプル画像
+![](images/distance.png)  
+![](images/pace.png)
+
+
 
 必要環境
 Python 3.11 以上
